@@ -1,0 +1,1020 @@
+.untitled-page2.mainContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.untitled-page2 .emergencyAppealSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: url("../assets/flag_with_skull_emblem.jpg") center center / cover
+    no-repeat;
+}
+
+@media only screen and (max-width: 760px) {
+  .untitled-page2 .emergencyAppealSection {
+    min-height: 113dvh;
+  }
+}
+
+.untitled-page2 .flexRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 65px auto 650px;
+  min-width: 91dvw;
+  max-width: 1166.015625px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .flexRow {
+    margin: 65px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page2 .flexRow {
+    margin: 65px auto 80px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    margin: 50px auto;
+  }
+}
+.untitled-page2 .logoImage {
+  position: relative;
+  margin: 0px 0px 4px;
+  width: 173px;
+  min-width: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .decorationImage {
+  position: relative;
+  margin: 6px 0px 0px;
+  width: 211px;
+  min-width: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 760px) {
+  .untitled-page2 .decorationImage {
+    width: 150px;
+    object-fit: contain !important;
+  }
+  .untitled-page2 .logoImage {
+    width: 150px;
+    object-fit: contain !important;
+  }
+  .untitled-page2 .specialtiesTitle {
+    font-size: 15px !important;
+  }
+  .untitled-page2 .flexCol10 {
+    position: relative !important;
+    height: auto !important;
+  }
+}
+.untitled-page2 .flexCol {
+  position: absolute;
+  top: 215px;
+  left: 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px 0px;
+  width: 457px;
+  height: 386px;
+}
+
+@media only screen and (max-width: 760px) {
+  .untitled-page2 .flexCol {
+    left: 0;
+    padding: 2rem;
+    width: auto;
+  }
+}
+.untitled-page2 .mainTitleBox_box {
+  position: relative;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .mainTitleBox_box {
+    align-items: flex-start;
+  }
+}
+.untitled-page2 .mainTitleBox {
+  font: 700 36px/0.82 "Raleway", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .mainTitleBox {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .mainTitleBox {
+    font-size: 30px;
+  }
+}
+.untitled-page2 .flexRowLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.untitled-page2 .flexRowLinks img {
+  width: 20px;
+  margin-left: 10px;
+}
+.untitled-page2 .mainTitleBox_span0 {
+  font: 700 1em/0.82 "Raleway", Helvetica, Arial, serif;
+}
+.untitled-page2 .mainTitleBox_span1 {
+  font: 500 0.3888888889em/1.14 "Raleway", Helvetica, Arial, serif;
+}
+.untitled-page2 .accessPlatformButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 1px;
+  width: 214px;
+  max-width: 100%;
+  font: 500 17px/1.52 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #00df70;
+  border-radius: 8px 8px 8px 8px;
+  padding: 11px 22px 11px 22px;
+  transition: 0.25s;
+}
+.untitled-page2 .accessPlatformButton:hover {
+  background: white;
+  color: #00df70;
+  cursor: pointer;
+}
+.untitled-page2 .availableSpecialtiesSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.untitled-page2 .specialtiesContentBox {
+  position: relative;
+  display: flex;
+  top: -1px;
+  flex-direction: column;
+  margin: 1px auto 0px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #03001c;
+  padding: 10px 0px 208px 0px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .specialtiesContentBox {
+    padding: 10px 0px 150px 0px;
+    min-height: 113dvh;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page2 .specialtiesContentBox {
+    padding: 10px 0px 80px 0px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .specialtiesContentBox {
+    padding: 10px 0px 50px 0px;
+  }
+}
+.untitled-page2 .specialtiesGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 208px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .specialtiesGroup {
+    margin: 10px 0px 150px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page2 .specialtiesGroup {
+    margin: 10px 0px 80px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .specialtiesGroup {
+    margin: 10px 0px 50px;
+  }
+}
+.untitled-page2 .decoratorImage {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .flexCol1 {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 79px 0px;
+  width: 737px;
+  height: 169px;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexCol1 {
+    gap: 50px 0px;
+  }
+}
+.untitled-page2 .specialtiesTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 700 30px/1.2 "Raleway", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .specialtiesTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .specialtiesTitle {
+    font-size: 24px;
+  }
+}
+.untitled-page2 .specialtiesSubtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 700 24px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .specialtiesSubtitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .specialtiesSubtitle {
+    font-size: 20px;
+  }
+}
+.untitled-page2 .flexRow1 {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  display: flex;
+  gap: 0px 20px;
+  width: 1064px;
+  height: 197px;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 575px) {
+  .untitled-page2 .flexRow1 {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    left: 0;
+    flex-direction: column;
+    bottom: auto;
+    width: 100dvw;
+    top: 8vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transform: translate(0, 0);
+  }
+  .untitled-page2 .specialtyGroup {
+    width: 100% !important;
+  }
+  .untitled-page2 .specialtyIcon {
+    min-height: 22dvh !important;
+    margin-top: 1.2rem;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexRow1 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.untitled-page2 .specialtyGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  min-width: 0px;
+}
+.untitled-page2 .specialtyIcon {
+  position: relative;
+  min-height: 197px;
+  background-color: white;
+  border-radius: 18px 18px 18px 18px;
+  outline: 1px solid #dedede;
+  outline-offset: -1px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.247);
+}
+.untitled-page2 .specialtyContentBox {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  height: 197px;
+  /* background: url("../assets/e62a5fa539be3f0c8336b52f9630a4fc.svg") center
+    center/100% 100% no-repeat; */
+  transform: translate(-50%, 0);
+}
+.untitled-page2 .specialtyFlexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px 0px;
+  margin: 96px 32px 20px 27px;
+}
+@media (max-width: 575px) {
+  .untitled-page2 .specialtyFlexCol {
+    margin: 80px 16px 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .specialtyFlexCol {
+    margin: 50px 8px 20px;
+  }
+}
+.untitled-page2 .specialtyTitle {
+  position: relative;
+  font: 700 18px/0.72 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .specialtyTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.untitled-page2 .specialtyDescription {
+  position: relative;
+  font: 400 14px/1.18 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+.untitled-page2 .flexCol2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px 0px;
+  margin: 131px auto 106px;
+  width: 1041.984375px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .untitled-page2 .flexCol2 {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexCol2 {
+    margin: 50px auto;
+  }
+}
+.untitled-page2 .processTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 522.03125px;
+  max-width: 85%;
+  font: 700 30px/1.2 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .processTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .processTitle {
+    font-size: 24px;
+  }
+}
+.untitled-page2 .flexRow2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .flexRow2 {
+    flex-direction: column;
+    gap: 30px 10px;
+  }
+}
+.untitled-page2 .flexCol3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 35px 0px;
+  width: 500px;
+  min-width: 0px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .flexCol3 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.untitled-page2 .patientImage {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .flexCol4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px 0px;
+  margin: 0px 0px 0px 10.8%;
+  width: 344px;
+  max-width: 85%;
+}
+@media (max-width: 1199px) {
+  .untitled-page2 .flexCol4 {
+    margin: 0px auto;
+  }
+}
+.untitled-page2 .patientTitle {
+  position: relative;
+  font: 700 30px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .patientTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .patientTitle {
+    font-size: 24px;
+  }
+}
+.untitled-page2 .flexRow3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 24px;
+}
+/* @media (max-width: 575px) {
+  .untitled-page2 .flexRow3 {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+} */
+/* @media (max-width: 383px) {
+  .untitled-page2 .flexRow3 {
+    flex-direction: column;
+    gap: 30px 8px;
+  }
+} */
+.untitled-page2 .patientStepGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 21px;
+  min-width: 0px;
+}
+/* @media (max-width: 383px) {
+  .untitled-page2 .patientStepGroup {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+} */
+.untitled-page2 .stepImage {
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  width: 2px;
+  height: 339px;
+  transform: translate(-50%, 0);
+}
+.untitled-page2 .flexCol5 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page2 .stepIcon {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .stepIcon1 {
+  position: relative;
+  margin: 50px 0px 0px;
+  width: 21px;
+  height: 21px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .stepIcon2 {
+  position: relative;
+  margin: 53px 0px 0px;
+  width: 21px;
+  height: 21px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 383px) {
+  .untitled-page2 .stepIcon2 {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .stepIcon3 {
+  position: relative;
+  margin: 54px 0px 0px;
+  width: 21px;
+  height: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 383px) {
+  .untitled-page2 .stepIcon3 {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .flexCol6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+  min-width: 0px;
+}
+/* @media (max-width: 383px) {
+  .untitled-page2 .flexCol6 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+} */
+.untitled-page2 .patientStepTitle {
+  position: relative;
+  font: 500 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .patientStepTitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .patientStepTitle {
+    font-size: 16px;
+  }
+}
+.untitled-page2 .patientStepSubtitle {
+  position: relative;
+  margin: 57px 0px 0px;
+  font: 500 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .patientStepSubtitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .patientStepSubtitle {
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .patientStepSubtitle {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .patientStepSubtitle1 {
+  position: relative;
+  margin: 60px 0px 0px;
+  font: 500 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .patientStepSubtitle1 {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .patientStepSubtitle1 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .patientStepSubtitle1 {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .flexCol7 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px 0px;
+  width: 458px;
+  min-width: 0px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .flexCol7 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexCol7 {
+    gap: 50px 0px;
+  }
+}
+.untitled-page2 .professionalImage {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .flexCol8 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px 0px;
+  width: 377.984375px;
+  max-width: 85%;
+}
+.untitled-page2 .professionalTitle {
+  position: relative;
+  font: 700 30px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .professionalTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .professionalTitle {
+    font-size: 24px;
+  }
+}
+.untitled-page2 .flexRow4 {
+  position: relative;
+  display: flex;
+  gap: 0px 24px;
+}
+@media (max-width: 575px) {
+  .untitled-page2 .flexRow4 {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .flexRow4 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 16px;
+  }
+}
+.untitled-page2 .professionalStepGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 21px;
+  min-width: 0px;
+}
+@media (max-width: 479px) {
+  .untitled-page2 .professionalStepGroup {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.untitled-page2 .flexCol9 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2px 0px;
+  width: 333px;
+  min-width: 0px;
+}
+@media (max-width: 479px) {
+  .untitled-page2 .flexCol9 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.untitled-page2 .professionalStepTitle {
+  position: relative;
+  font: 500 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .professionalStepTitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .professionalStepTitle {
+    font-size: 16px;
+  }
+}
+.untitled-page2 .professionalStepSubtitle {
+  position: relative;
+  margin: 57px 0px 0px;
+  font: 500 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .professionalStepSubtitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .professionalStepSubtitle {
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .professionalStepSubtitle {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .professionalStepSubtitle1 {
+  position: relative;
+  margin: 60px 0px 0px;
+  font: 500 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .professionalStepSubtitle1 {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .professionalStepSubtitle1 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .professionalStepSubtitle1 {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .professionalStepSubtitle2 {
+  position: relative;
+  margin: 60px 0px 0px;
+  font: 500 24px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .professionalStepSubtitle2 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .professionalStepSubtitle2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .professionalStepSubtitle2 {
+    margin: 50px 0px 0px;
+  }
+}
+.untitled-page2 .helpSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page2 .sectionSeparator {
+  position: relative;
+  margin: 820px auto 114px;
+  width: 94.58%;
+  max-width: 1292px;
+  height: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .sectionSeparator {
+    margin: 150px auto 114px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page2 .sectionSeparator {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .sectionSeparator {
+    margin: 50px auto;
+  }
+}
+.untitled-page2 .flexCol10 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px 0px;
+  width: 100%;
+  height: 934px;
+  transform: translate(-50%, 0);
+}
+.untitled-page2 .flexCol11 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1px 0px;
+}
+.untitled-page2 .helpContentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #03001c;
+}
+.untitled-page2 .flexCol12 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px 0px;
+  margin: 74px auto 35px;
+  width: 1069.03125px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexCol12 {
+    margin: 50px auto 35px;
+  }
+}
+.untitled-page2 .helpTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 97.29%;
+  font: 700 30px/1.2 "Raleway", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .helpTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page2 .helpTitle {
+    font-size: 24px;
+  }
+}
+.untitled-page2 .pixButton_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1069px;
+  max-width: 100%;
+  border-radius: 18px 18px 18px 18px;
+  padding: 26.5px 8px 26.5px 8px;
+}
+.untitled-page2 .pixButton {
+  font: 500 28px/1.17 "Raleway", Helvetica, Arial, serif;
+  color: #03001c;
+  text-align: center;
+}
+.untitled-page2 .pixButton_span0 {
+  font: 500 1em/1.17 "Raleway", Helvetica, Arial, serif;
+}
+.untitled-page2 .pixButton_span1 {
+  font: 700 1em/1.17 "Raleway", Helvetica, Arial, serif;
+}
+.untitled-page2 .pixGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page2 .pixCodeBackground {
+  position: relative;
+  top: -1px;
+  min-height: 536px;
+  background-color: rgba(3, 0, 28, 0.929);
+}
+.untitled-page2 .flexRow5 {
+  position: absolute;
+  top: 64px;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 1069px;
+  height: 410px;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexRow5 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.untitled-page2 .pixImage {
+  position: relative;
+  width: 329px;
+  min-width: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .pixImage1 {
+  position: relative;
+  width: 329px;
+  min-width: 0px;
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.247));
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .donationContentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: -2px;
+  min-height: 150px;
+  background: #03001c;
+}
+.untitled-page2 .flexRow6 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 30px 40px 27px;
+}
+@media (max-width: 991px) {
+  .untitled-page2 .flexRow6 {
+    margin: 30px 32px 27px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page2 .flexRow6 {
+    margin: 30px 16px 27px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page2 .flexRow6 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    margin: 30px 8px 27px;
+  }
+}
+.untitled-page2 .donationImage {
+  position: relative;
+  width: 172px;
+  min-width: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page2 .donationImage1 {
+  position: relative;
+  margin: 7px 0px 13px;
+  width: 144px;
+  min-width: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
