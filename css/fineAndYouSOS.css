@@ -910,12 +910,33 @@
 }
 .untitled-page2 .pixButton_box {
   position: relative;
+  background: #00df70;
   display: flex;
   justify-content: center;
   width: 1069px;
   max-width: 100%;
   border-radius: 18px 18px 18px 18px;
   padding: 26.5px 8px 26.5px 8px;
+  transition: 0.25s;
+}
+
+.untitled-page2 .pixButton_box:hover {
+  background: white;
+  color: #00df70 !important;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+  .untitled-page2 .pixButton_box .pixButton_span0 {
+    font-size: 1rem !important;
+  }
+  .untitled-page2 .flexRow5 {
+    width: 100% !important;
+    overflow: auto;
+  }
+  .untitled-page2 .pixButton_box .pixButton_span1 {
+    font-size: 1rem !important;
+  }
 }
 .untitled-page2 .pixButton {
   font: 500 28px/1.17 "Raleway", Helvetica, Arial, serif;

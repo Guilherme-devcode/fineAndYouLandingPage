@@ -8,6 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="stylesheet" href="./css/lightbox.css" />
 
     <link
       rel="stylesheet"
@@ -26,6 +27,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
     <link rel="stylesheet" type="text/css" href="./css/common.css" />
     <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="./css/fineAndYouSOS.css" />
@@ -41,6 +43,8 @@
       type="text/javascript"
       src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"
     ></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
 
   <body class="flex-column">
@@ -352,7 +356,12 @@
                   atendimentos e exames, garantindo que mais pessoas recebam o
                   suporte necessário.
                 </h1>
-                <button class="pixButton_box">
+                <button
+                  data-aos="fade-bottom"
+                  data-aos-easing="ease-in-sine"
+                  class="pixButton_box"
+                  data-pix="fineandyou@doubleit.com.br"
+                >
                   <span class="pixButton"
                     ><span class="pixButton_span0">Chave PIX: </span
                     ><span class="pixButton_span1"
@@ -365,25 +374,44 @@
             <div class="pixGroup">
               <div class="pixCodeBackground"></div>
               <div class="flexRow5">
-                <img
-                  data-aos="fade-top"
-                  data-aos-easing="ease-in-sine"
-                  class="pixImage"
-                  src="./assets/contribute_to_rs.png"
-                  alt="alt text"
-                /><img
-                  data-aos="fade-top"
-                  data-aos-easing="ease-in-sine"
-                  class="pixImage1"
-                  src="./assets/donate_for_rio_grande_do_sul.png"
-                  alt="alt text"
-                /><img
-                  data-aos="fade-top"
-                  data-aos-easing="ease-in-sine"
-                  class="pixImage"
-                  src="./assets/donate_to_church.png"
-                  alt="alt text"
-                />
+                <a
+                  class="example-image-link"
+                  href="./assets/contribute_to_rs.png"
+                  data-lightbox="image-1"
+                >
+                  <img
+                    data-aos="fade-top"
+                    data-aos-easing="ease-in-sine"
+                    class="pixImage"
+                    src="./assets/contribute_to_rs.png"
+                    alt="alt text"
+                /></a>
+                <a
+                  class="example-image-link"
+                  href="./assets/donate_for_rio_grande_do_sul.png"
+                  data-lightbox="image-2"
+                >
+                  <img
+                    style="width: 260px; padding-top: 37px"
+                    data-aos="fade-top"
+                    data-aos-easing="ease-in-sine"
+                    class="pixImage"
+                    src="./assets/donate_for_rio_grande_do_sul.png"
+                    alt="alt text"
+                  />
+                </a>
+                <a
+                  class="example-image-link"
+                  href="./assets/donate_to_church.png"
+                  data-lightbox="image-3"
+                  ><img
+                    data-aos="fade-top"
+                    data-aos-easing="ease-in-sine"
+                    class="pixImage"
+                    src="./assets/donate_to_church.png"
+                    alt="alt text"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -419,9 +447,25 @@
         </div>
       </section>
     </main>
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/lightbox-plus-jquery.js"></script>
+
     <script type="text/javascript">
       AOS.init();
       new Sticky(".sticky-effect");
+
+      var pixButton = document.querySelector(".pixButton_box");
+      pixButton.onclick = function () {
+        var pixKey = this.getAttribute("data-pix");
+        navigator.clipboard.writeText(pixKey).then(
+          function () {
+            swal("Pix copiado!", "", "success");
+          },
+          function (err) {
+            console.error("Erro ao copiar a chave PIX: ", err);
+          }
+        );
+      };
     </script>
   </body>
 </html>
